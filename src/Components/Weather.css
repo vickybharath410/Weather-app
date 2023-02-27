@@ -1,0 +1,32 @@
+*{
+    background-color: rgb(175, 224, 209);
+}
+/* .weather-box{
+    background-color: rgb(210, 206, 144);
+    height: 400px;  
+} */
+.search-bar{
+    width: 400px;
+    height: 40px;
+}
+.citylist{
+    width: 500px;
+    height: 300px;
+    border: 3px dashed white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: auto auto ;
+    margin-top: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.search-btn{
+    width: 100px;
+    height: 45px;
+    margin-left: 3px;
+    background-color: rgb(66, 196, 159);
+    border: 1px solid rgb(66, 196, 159);
+    border-radius: 5px;
+}
